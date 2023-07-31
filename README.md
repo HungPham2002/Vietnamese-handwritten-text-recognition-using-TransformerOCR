@@ -84,3 +84,4 @@ Idea: we want to detect text from a text image:
 - Too time comsuming
 - Too expensive
 - Impossible in most cases
+# Updating
