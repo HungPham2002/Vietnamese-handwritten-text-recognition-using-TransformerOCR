@@ -106,6 +106,8 @@ Passing an image through the CNN model will produce a feature map with dimension
 
 ## Transformer OCR
 
+![transformerOCR](https://pbcquoc.github.io/images/vietocr/transformerocr.jpg)
+
 You can leverage the Transformer architecture instead of the LSTM model to predict the next word in an image. The author has explained the detailed architecture and operation of the Transformer model extensively <a href="https://pbcquoc.github.io/transformer/">here</a>, so you can refer to that for a comprehensive understanding.
 
 ## Training model
@@ -130,6 +132,7 @@ The VietOCR model exhibits an excellent level of generalization and even achieve
 
 How to use and more detail about the library, you can read <a href="https://github.com/pbcquoc/vietocr">here</a>.
 
+To quickly experiment, you can consult this <a href = "https://pbcquoc.github.io/images/vietocr/transformerocr.jpg">notebook</a>
 In the next section, We will discuss how to create a suitable dataset for the library, use the library to train on a new dataset, modify the augmentation techniques, make predictions for new images, and provide some tips when using the library.
 
 ## Prepare a dataset:
