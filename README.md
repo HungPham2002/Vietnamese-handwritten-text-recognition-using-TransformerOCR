@@ -114,7 +114,7 @@ You can leverage the Transformer architecture instead of the LSTM model to predi
 
 Training the AttentionOCR or TransformerOCR model is very similar to training the seq2seq model. They all use cross-entropy loss for optimization, instead of using CTCLoss like the CRNN model. This means that at each time step, the model predicts a word and then compares it with the ground truth label to calculate the loss and update the model's weights accordingly.
 
-## Limitations of Models Using CTCLoss
+## Limitations of Models using CTC Loss
 
 For the CRNN model that uses CTCloss as the objective function, the maximum number of characters that can be predicted is limited by the width x height of the feature maps. Therefore, careful adjustment of the model architecture is necessary to predict the appropriate number of characters for each dataset. In contrast, for the AttentionOCR or TransformerOCR models, you do not encounter this issue, making it easy to use pretrained models for different types of data.
 
