@@ -73,9 +73,9 @@ Here are 10 samples of the dataset:
 ![sample](https://camo.githubusercontent.com/42caf01b97c950f82d8a2880c192433426e7aecb48ffecaca1b9dbfa7dac04d3/68747470733a2f2f692e696d6775722e636f6d2f66545865746b302e6a7067)
 Here is the structure of the json file containing the labels:
 ![label](https://camo.githubusercontent.com/66f97a1a493e3c63c5a37158f77e5d35aaa1c3ce435c4ed0bebeda89951a21e0/68747470733a2f2f692e696d6775722e636f6d2f554b7a414e53492e706e67)
-Dataset which we merged based on the Cinnamon's dataset: https://drive.google.com/drive/folders/1_Zg_X1tSxtZh2UJ2Rlq-ojGQA_jp8bYg?usp=drive_link
+The dataset, for which we customized the structure, is able to be processed by the model. : https://drive.google.com/drive/folders/1_Zg_X1tSxtZh2UJ2Rlq-ojGQA_jp8bYg?usp=drive_link
 
-More detail about dataset: https://drive.google.com/drive/folders/1Qa2YA6w6V5MaNV-qxqhsHHoYFRK5JB39
+More detail about the Cinnamon's dataset: https://drive.google.com/drive/folders/1Qa2YA6w6V5MaNV-qxqhsHHoYFRK5JB39
 
 # Model:
 
